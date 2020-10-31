@@ -1,0 +1,36 @@
+.navigation {
+	ul{
+		width: 90%;
+		margin: 0px; 
+		padding: 0px;
+  		list-style: none;
+  		border: 1px;
+  		display: flex;
+  		flex-direction: row;
+  		flex-wrap: nowrap;
+  		justify-content: space-evenly;
+	}
+		li{
+		display: inline-block;
+	}
+			a{
+		display: flex;
+		padding: 0.6rem 2rem;
+		transition: all 0.4s linear;  
+  		border-radius: 5px;
+  		background-color: transparent;
+	}
+				a:hover{
+		background:#C3B8B8;
+	}
+}
+
+.card-header{
+	background-color: #343a40;
+}
+
+.card-footer{
+	background-color: #343a40;
+}
+
+

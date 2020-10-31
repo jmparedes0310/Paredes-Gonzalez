@@ -1,0 +1,25 @@
+.navigation ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly; }
+
+.navigation li {
+  display: inline-block; }
+
+.navigation a {
+  display: flex;
+  padding: 0.6rem 2rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  background-color: transparent; }
+
+.navigation a:hover {
+  background: #C3B8B8; }
+
+.tributario a:hover {
+  background: url(./assets/img/DT.png); }
